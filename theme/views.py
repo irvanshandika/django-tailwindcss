@@ -8,3 +8,6 @@ def index(request):
 
 def about(request):
     return render(request, "pages/about.html")
+
+def installation(request):
+    return render(request, "pages/installation.html")
