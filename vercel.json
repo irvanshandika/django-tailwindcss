@@ -5,14 +5,14 @@
       "use": "@vercel/python"
     },
     {
-      "src": "theme/static/styles.css",
+      "src": "theme/static/css/dist/styles.css",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "theme/static/styles.css"
+      "dest": "theme/static/css/dist/styles.css"
     },
     {
       "src": "/(.*)",
