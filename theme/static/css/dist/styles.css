@@ -868,3 +868,17 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
+
+@media (min-width: 1024px) {
+  .lg\:h-\[\] {
+    height: ;
+  }
+
+  .lg\:h-\[315px\] {
+    height: 315px;
+  }
+
+  .lg\:w-\[560px\] {
+    width: 560px;
+  }
+}
