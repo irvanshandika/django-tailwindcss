@@ -1,9 +1,7 @@
-# blog/urls.py
 from django.urls import path
-
-from theme.views import index
-
+from . import views
 
 urlpatterns = [
-    path('', index),
+    path('', views.index, name='index'),
+    path('about/', views.about, name='about')
 ]
